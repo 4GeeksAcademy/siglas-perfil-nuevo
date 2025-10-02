@@ -1,0 +1,149 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Francisco
+  last_name: Sarabia
+
+  # Define yourself in 4-5 words
+  motto: Systems Analyst, Developer
+
+  # Focus
+  focus: learn New Technologies
+
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: |
+    Systems Analyst and Software Developer with extensive experience since 1991 in designing and developing customized administrative solutions for food distribution companies, particularly in the ice cream and dairy products sector.
+    Creator of SIGLAS, a comprehensive administrative system specifically designed for distribution businesses, covering:
+
+    - Payroll
+
+    - Basic Accounting
+
+    - Accounts Payable and Accounts Receivable
+
+    - Billing
+
+    - Inventory Management
+
+    - Legal Books (purchase, sales, inventory)
+
+    - Tax Withholding Control
+
+    - The system was developed using FoxPro 2.6 and Visual FoxPro with free tables (.dbf), ensuring stability, adaptability, and high performance tailored to the sector's needs. Proven expertise in process analysis,
+     system design, and development focused on optimizing administrative and operational management.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: #http://sep.breatheco.de/static/profile-images/photo.jpeg
+
+  # Contact Information
+  email: siglasconexion@hotmail.com #optional
+  phone: +1 786 2774134 #optional
+  website: #optional
+  linkedin: #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: franciscosvr37
+
+  twitter: "@siglasconexion" #optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: English
+      level: Basic
+
+    - idiom: Spanish
+      level: Native
+
+  # Interests or hobbies
+  interests:
+    - item: Running
+
+    - item: Developer
+
+    - item: travelling
+
+# Your previous education
+education:
+  - degree: Systems Analyst, Developer
+    university: Institute of Programming and Systems (IPS)
+    # optional
+    university_logo: "#"
+    time: 1989 - 1991
+    details: |
+      estudio de logica de programacion, diagramas de flujo, creacion de base de datos
+      estudio de los siguientes de lenguajes de programacion basic, cobol, foxbase
+      foxpro
+
+        - Bullet point
+        - Bullet point
+
+  - degree: compilacion clipper
+    university: ince
+    time: 1993 30 horas
+
+  - degree: programacion lotus 1,2,3
+    university: ince
+    time: 1993 30 horas
+
+  - degree: Desarrollo de Aplicaciones Web
+    university: ARsistema
+    time: 2017  64 horas
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: Analista de Sistemas / Programador
+    time: 1992 - 2018
+    company: Sistemas Guayana, c.a., Venezuela
+    # optional
+    company_logo: "#"
+    details: |
+      Analisis de procesos manuales y de sistemas ya elaborados para proproner nuevos
+      proyectos y una vez aprovados. hacer el desarrollo del software y todo lo que viene
+      para poner en marcha el sistema en las empresas. mantenimiento de equipos, redes.
+
+        - Bullet point
+        - Bullet point
+
+# Your project portfolio
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section.
+
+  assignments:
+    - title: "#"
+      # optional
+      project_logo: "#"
+      link: "#"
+      tagline: "#"
+
+skills:
+  toolset:
+    - name: Foxpro 2.6
+      level: 85%
+
+    - name: Visual Foxpro 7
+      level: 70%
+
+    - name: Php
+      level: 60%
+
+    - name: HTML5 & CSS
+      level: 60%
+
+    - name: mysql
+      level: 85%
+
+    - name: Git, Git-hub, cmd, git-bash, Javascript, node, python, vite, react
+      level: 60%
